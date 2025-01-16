@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">Gra</string>
+    <string name="Title">Catch them or not</string>
+    <string name="Play">Play</string>
+    <string name="About">About</string>
+    <string name="Scoreboard">Scoreboard</string>
+    <string name="Name">Name: Mateusz Janicki</string>
+    <string name="Subject">Subject: Programowanie gier na urządzenia mobilne</string>
+    <string name="Information">Additional information: All elements of this work have been used in compliance with the law. The background music during the game was generated using the Suno AI model. The icons are under a public domain license.</string>
+    <string name="GameOver">Game Over</string>
+    <string name="Submit">Submit</string>
+    <string name="PlayAgain">Play again</string>
+    <string name="Menu">Menu</string>
+    <string name="Nickname">Enter your nickname</string>
+
+</resources>

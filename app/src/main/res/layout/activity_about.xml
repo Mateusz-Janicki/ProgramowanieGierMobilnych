@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:background="#fcf0fc">
+
+    <TextView
+        android:id="@+id/textViewAboutTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="50dp"
+        android:gravity="center"
+        android:text="About the Game"
+        android:textColor="#000000"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textViewAboutContent"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50dp"
+        android:gravity="center_horizontal"
+        android:text="@string/Name"
+        android:textColor="#000000"
+        android:textSize="16sp"
+        android:padding="16dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        android:background="@drawable/textview_border"
+        app:layout_constraintTop_toBottomOf="@+id/textViewAboutTitle" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50dp"
+        android:gravity="center_horizontal"
+        android:textColor="#000000"
+        android:text="@string/Subject"
+        android:textSize="16sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        android:padding="16dp"
+        android:background="@drawable/textview_border"
+        app:layout_constraintTop_toBottomOf="@+id/textViewAboutContent" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50dp"
+        android:gravity="center_horizontal"
+        android:textColor="#000000"
+        android:textSize="16sp"
+        android:text="@string/Information"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:padding="16dp"
+        app:layout_constraintStart_toStartOf="parent"
+        android:background="@drawable/textview_border"
+        app:layout_constraintTop_toBottomOf="@+id/textView2" />
+</androidx.constraintlayout.widget.ConstraintLayout>

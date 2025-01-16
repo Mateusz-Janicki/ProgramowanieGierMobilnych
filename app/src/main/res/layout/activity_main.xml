@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#fcf0fc"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="150dp"
+        android:text="@string/Title"
+        android:textColor="#000000"
+        android:textSize="50sp"
+        android:fontFamily="cursive"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/buttonPlay"
+        style="@style/Widget.AppCompat.Button"
+        android:layout_width="150dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="50dp"
+        android:text="@string/Play"
+        android:textColor="#000000"
+        android:textStyle="bold"
+        android:background="@drawable/button_bg_selector"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView" />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/buttonScoreboard"
+        style="@style/Widget.AppCompat.Button"
+        android:layout_width="150dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="50dp"
+        android:text="@string/Scoreboard"
+        android:textColor="#000000"
+        android:textStyle="bold"
+        android:background="@drawable/button_bg_selector"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/buttonPlay" />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/button"
+        style="@style/Widget.AppCompat.Button"
+        android:layout_width="150dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="50dp"
+        android:text="@string/About"
+        android:textStyle="bold"
+        android:textColor="#000000"
+        android:background="@drawable/button_bg_selector"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/buttonScoreboard" />
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="200dp"
+        android:layout_height="150dp"
+        android:layout_marginTop="75dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/button"
+        app:srcCompat="@drawable/ic_basket" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
